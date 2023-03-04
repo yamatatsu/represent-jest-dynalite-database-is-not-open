@@ -1,8 +1,5 @@
 module.exports = {
   roots: ["<rootDir>/test"],
-  testMatch: ["**/*.test.ts"],
-  transform: {
-    "^.+\\.tsx?$": "ts-jest",
-  },
+  testMatch: ["**/*.test.js"],
   preset: "jest-dynalite",
 };
